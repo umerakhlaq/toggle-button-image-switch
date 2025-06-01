@@ -1,0 +1,47 @@
+/* Page background */
+body {
+  margin: 0;
+  padding: 0;
+  background: #f4f4f4;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Container for centering */
+.container {
+  text-align: center;
+}
+
+/* Button style */
+.btn {
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  font-size: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* Button when active */
+.btn.active {
+  background-color: #4caf50;
+}
+
+/* Image styling */
+.image {
+  display: block;
+  margin: 20px auto;
+  width: 200px;
+  height: auto;
+  transition: 0.3s;
+}
+
+.image{
+  width: 400px;
+  height: 400px;
+}
